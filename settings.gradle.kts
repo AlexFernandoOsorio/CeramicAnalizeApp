@@ -33,3 +33,7 @@ plugins {
 }
 
 include(":composeApp")
+include(":coreDatabase")
+include(":coreNetwork")
+include(":Home")
+include(":Search")
