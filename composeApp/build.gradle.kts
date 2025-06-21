@@ -37,6 +37,8 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+            implementation(compose.components.resources)
+
             val cameraxVersion = "1.3.0-rc01"
 
             implementation("androidx.camera:camera-core:$cameraxVersion")
@@ -46,6 +48,9 @@ kotlin {
 
             implementation("androidx.camera:camera-view:$cameraxVersion")
             implementation("androidx.camera:camera-extensions:$cameraxVersion")
+
+            implementation ("org.tensorflow:tensorflow-lite:2.13.0")
+            implementation ("org.tensorflow:tensorflow-lite-support:0.3.1")
 
             implementation("org.tensorflow:tensorflow-lite-task-vision:0.4.0")
             implementation("org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.4.0")
@@ -60,6 +65,8 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtimeCompose)
+
+            implementation(libs.navigation.compose)
 
         }
         commonTest.dependencies {

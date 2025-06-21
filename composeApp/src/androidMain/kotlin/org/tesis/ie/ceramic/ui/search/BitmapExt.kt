@@ -1,4 +1,4 @@
-package org.tesis.ie.ceramic.ui
+package org.tesis.ie.ceramic.ui.search
 
 import android.graphics.Bitmap
 

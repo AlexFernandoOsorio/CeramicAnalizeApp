@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">CeramicAnalizeApp</string>
+
+    <string name="home_title1">Reconocimiento</string>
+    <string name="home_title2">Lista de categorías</string>
+    <string name="home_title3">Investigación</string>
+    <string name="home_title4">Contacto</string>
+    <string name="home_title5">Manual de Uso</string>
+    <string name="home_title6">Información</string>
+
+    <string name="welcome_title1">AyniNet es un proyecto de investigación\ndesarrollado en la Universidad Nacional de San Antonio Abad del Cusco.</string>
+    <string name="welcome_title2">Su objetivo es evaluar distintas configuraciones de modelos de Machine Learning para la clasificación automática de cerámica inca, basándose en su morfología.</string>
+    <string name="welcome_title3">Con la cámara de tu dispositivo, podrás capturar una imagen de un bien cultural (cerámica inca) y AyniNet te indicará la categoría correspondiente, además de mostrarte información relevante sobre la pieza.</string>
+    <string name="welcome_title4">La base de datos de imágenes e información fue recopilada gracias al apoyo de la Dirección Desconcentrada de Cultura de Cusco (Gabinete de Elementos Muestrales y Colecciones, Proyecto Qhapaq Ñan) y el Museo Larco de Lima - Perú.</string>
+
+
 </resources>

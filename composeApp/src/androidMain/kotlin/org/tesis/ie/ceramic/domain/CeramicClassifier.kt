@@ -5,6 +5,6 @@ import org.tesis.ie.ceramic.domain.models.Classification
 
 interface CeramicClassifier {
 
-    fun classify(bitmap: Bitmap, rotation: Int): List<Classification>
+    fun classify(bitmap: Bitmap): List<Classification>
 
 }

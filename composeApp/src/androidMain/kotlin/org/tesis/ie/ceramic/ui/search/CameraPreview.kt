@@ -1,4 +1,4 @@
-package org.tesis.ie.ceramic.ui
+package org.tesis.ie.ceramic.ui.search
 
 import androidx.camera.view.LifecycleCameraController
 import androidx.camera.view.PreviewView

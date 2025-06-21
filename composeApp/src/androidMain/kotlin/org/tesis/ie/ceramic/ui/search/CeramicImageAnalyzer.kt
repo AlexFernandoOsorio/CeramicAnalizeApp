@@ -1,4 +1,4 @@
-package org.tesis.ie.ceramic.ui
+package org.tesis.ie.ceramic.ui.search
 
 import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.ImageProxy
@@ -17,9 +17,9 @@ class CeramicImageAnalyzer (
             val rotationDegrees = image.imageInfo.rotationDegrees
             val bitmap = image
                 .toBitmap()
-                .centerCrop(321, 321)
+                .centerCrop(244, 244)
 
-            val results = classifier.classify(bitmap, rotationDegrees)
+            val results = classifier.classify(bitmap)
             onResults(results)
         }
         frameSkipCounter++
@@ -27,3 +27,5 @@ class CeramicImageAnalyzer (
         image.close()
     }
 }
+//  1 , 244 , 244 , 1
+//float
